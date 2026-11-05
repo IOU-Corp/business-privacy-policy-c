@@ -1,39 +1,144 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Placeholder for the IOU Corp Cannabis Business Privacy Policy.">
-  <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#e54525">
-  <title>Cannabis Business Privacy Policy | IOU Corp</title>
-  <style>
-    :root { color-scheme: light; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; background: #f8f9fb; color: #1f2937; display: flex; flex-direction: column; }
-    header, footer { width: min(100%, 1040px); margin-inline: auto; padding-inline: 24px; }
-    header { padding-block: 28px; font-weight: 800; letter-spacing: .03em; }
-    header .mark { display: inline-block; width: 10px; height: 10px; margin-right: 9px; background: #e54525; border-radius: 2px; }
-    main { width: min(100% - 36px, 760px); margin: auto; padding: 52px 0 74px; }
-    .panel { background: white; border: 1px solid #e5e7eb; border-radius: 18px; padding: clamp(30px, 6vw, 64px); box-shadow: 0 14px 40px rgb(17 24 39 / 5%); }
-    .eyebrow { color: #b83c22; text-transform: uppercase; font-weight: 700; letter-spacing: .08em; font-size: .75rem; }
-    h1 { margin: 12px 0 18px; font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.14; letter-spacing: -.035em; }
-    p { font-size: 1.05rem; line-height: 1.7; margin: 0; color: #4b5563; }
-    .notice { margin-top: 32px; padding: 16px 20px; border-left: 3px solid #e54525; border-radius: 0 8px 8px 0; background: #fff7f4; font-size: .95rem; line-height: 1.55; color: #663c33; }
-    footer { border-top: 1px solid #e5e7eb; padding-block: 22px; color: #6b7280; font-size: .85rem; }
-    @media (max-width: 480px) { header { padding-block: 20px; } main { padding: 32px 0 50px; } }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Cannabis Business Privacy Policy for IOU Corp. Last updated as of July 10, 2026.">
+<meta name="theme-color" content="#17243a">
+<title>Cannabis Business Privacy Policy | IOU Corp</title>
+<style>
+:root{color-scheme:light;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--ink:#1f2a3c;--muted:#627082;--line:#e1e6ec;--accent:#e54525;--accent-dark:#b93018}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#f7f9fb;color:var(--ink)}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid #f28a70;outline-offset:3px;border-radius:4px}
+.skip-link{position:absolute;left:-10000px;top:8px;z-index:10;background:#fff;padding:12px}
+.skip-link:focus{left:12px}
+.topbar{background:#fff;border-bottom:1px solid var(--line)}
+.topbar-inner{width:min(1140px,calc(100% - 40px));margin:auto;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand-icon{display:grid;place-items:center;width:42px;height:42px;background:var(--accent);color:#fff;font-size:14px;border-radius:10px;font-weight:850}
+.brand-name{font-size:18px;display:block;font-weight:800;line-height:1.15}
+.brand-subtitle{display:block;font-size:12px;color:var(--muted);margin-top:3px}
+.portals{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:flex-end;font-size:13px}
+.portals a{color:#5d6977;text-underline-offset:4px}
+.portals a:hover{color:var(--accent-dark)}
+.hero{background:linear-gradient(115deg,#17243a,#273d55)}
+.hero-inner{width:min(1140px,calc(100% - 40px));margin:auto;padding:33px 0}
+.hero-label{color:#ffb49f;font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:800}
+.hero h2{margin:9px 0 0;color:#fff;font-size:clamp(24px,3.2vw,36px);letter-spacing:-.03em}
+.layout{width:min(1140px,calc(100% - 40px));margin:30px auto 70px;display:grid;grid-template-columns:250px minmax(0,1fr);align-items:start;gap:25px}
+.sidebar{position:sticky;top:18px;border:1px solid var(--line);border-radius:14px;background:#fff;padding:20px 15px;box-shadow:0 8px 30px rgba(20,35,55,.035)}
+.sidebar-title{margin:3px 10px 16px;font-size:11px;font-weight:800;letter-spacing:.11em;color:#8b96a5}
+.sidebar details{border-top:1px solid #edf0f4;padding:12px 0}
+.sidebar details:first-of-type{border-top:0}
+.sidebar summary{cursor:pointer;font-size:13px;font-weight:800;list-style:none;color:#344258;display:flex;align-items:center;justify-content:space-between;padding:8px 10px}
+.sidebar summary::-webkit-details-marker{display:none}
+.sidebar summary::after{content:"";width:7px;height:7px;border-right:2px solid #8793a3;border-bottom:2px solid #8793a3;transform:rotate(45deg)}
+.sidebar details[open] summary::after{transform:rotate(225deg)}
+.side-links{display:grid;gap:3px;padding:5px 0 0}
+.side-links a{display:block;color:#506077;text-decoration:none;font-size:13px;padding:10px 10px 10px 13px;border-radius:8px;border-left:3px solid transparent;line-height:1.4}
+.side-links a:hover,.side-links a:focus-visible{background:#fff3ed;color:#963b26;border-left-color:var(--accent)}
+.side-links a.active{background:#fff0e9;color:#a13720;font-weight:800;border-left-color:var(--accent)}
+.sidebar-footer{padding:16px 9px 3px;border-top:1px solid #edf0f4;font-size:12px}
+.sidebar-footer a{color:#566679;text-underline-offset:3px}
+.legal-document{min-width:0;background:#fff;border:1px solid var(--line);border-radius:14px;padding:clamp(26px,4.5vw,55px);box-shadow:0 10px 35px rgba(20,35,55,.045)}
+.document-category{font-size:11px;letter-spacing:.12em;color:#b33b23;font-weight:800;text-transform:uppercase}
+.legal-document h1{font-size:clamp(28px,3.5vw,41px);letter-spacing:-.035em;line-height:1.19;margin:11px 0 9px}
+.document-date{color:#667487;font-size:13px;margin:0 0 29px}
+.legal-copy{border-top:1px solid #e5e9ee;padding-top:24px;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#344155;overflow-wrap:anywhere}
+.legal-copy h2{font-size:20px;line-height:1.35;letter-spacing:-.01em;margin:35px 0 12px;color:#263648}
+.legal-copy h3{font-size:16px;line-height:1.45;margin:24px 0 9px;color:#263648}
+.legal-copy p{margin:0 0 16px;font-size:14.5px;line-height:1.79}
+.legal-copy p.clause{margin-left:12px}
+.doc-end{margin-top:37px;padding-top:20px;border-top:1px solid #e9edf1;color:#7c8795;font-size:12px}
+footer{border-top:1px solid var(--line);text-align:center;color:#778396;font-size:12px;padding:25px 20px 30px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.sidebar{position:static}.hero-inner{padding:29px 0}.topbar-inner{min-height:70px}.portals{gap:8px;font-size:12px}}
+@media(max-width:490px){.topbar-inner,.hero-inner,.layout{width:min(100% - 28px,1140px)}.portals{flex-direction:column;align-items:flex-end;gap:4px}.brand-name{font-size:16px}.brand-icon{width:38px;height:38px}.layout{margin-top:17px}.legal-document{padding:23px 19px}.legal-copy p{font-size:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <header><span class="mark" aria-hidden="true"></span>IOU Corp</header>
-  <main>
-    <section class="panel" aria-labelledby="page-title">
-      <div class="eyebrow">Document placeholder</div>
-      <h1 id="page-title">Cannabis Business Privacy Policy</h1>
-      <p>IOU Corp's cannabis-specific business Privacy Policy will be published here once the document is finalized.</p>
-      <div class="notice"><strong>Not yet published.</strong> This is a placeholder page, not the finalized Cannabis Business Privacy Policy.</div>
-    </section>
-  </main>
-  <footer>&copy; 2026 IOU Corp</footer>
+<a class="skip-link" href="#legal-document">Skip to policy text</a>
+<header class="topbar">
+<div class="topbar-inner">
+<a class="brand" href="https://iou-corp.github.io/business-docs-c/"><span class="brand-icon" aria-hidden="true">IOU</span><span><span class="brand-name">IOU Corp</span><span class="brand-subtitle">Legal &amp; Policy Center</span></span></a>
+<nav class="portals" aria-label="Legal document portals"><a href="https://iou-corp.github.io/business-docs-c/">Cannabis business documents</a><a href="https://iou-corp.github.io/business-docs/">General business documents</a></nav>
+</div></header>
+<section class="hero" aria-label="Policy library"><div class="hero-inner"><div class="hero-label">Cannabis business document</div><h2>Legal documents &amp; policies</h2></div></section>
+<div class="layout">
+<aside class="sidebar" aria-label="Document navigation">
+<div class="sidebar-title">BROWSE DOCUMENTS</div>
+<nav aria-label="Policy pages"><details open><summary>Cannabis business policies</summary><div class="side-links"><a href="https://iou-corp.github.io/business-terms-of-service-c/">Terms of Service</a>
+<a href="https://iou-corp.github.io/business-privacy-policy-c/" aria-current="page" class="active">Privacy Policy</a>
+<a href="https://iou-corp.github.io/iou-business-disclaimer-c/">Disclaimer</a></div></details>
+ <details open><summary>Other legal documents</summary><div class="side-links"><a href="https://iou-corp.github.io/dmca/">DMCA Policy</a></div></details></nav>
+<div class="sidebar-footer"><a href="https://iou-corp.github.io/business-docs-c/">All cannabis business documents</a></div>
+</aside>
+<main>
+<article class="legal-document" id="legal-document" data-document="privacy">
+<div class="document-category">Cannabis Business Policies</div>
+<h1>Privacy Policy</h1>
+<p class="document-date">Last updated as of July 10, 2026</p>
+<div class="legal-copy" id="legal-copy">
+<p>This Privacy Policy of IOU Corp. and its affiliated entities, including but not limited to Cannopy (“IOU Corp“, “we“, “us“, “our“) applies to the operations of IOU Corp that we offer through our website(s), mobile app(s), and other online and offline services or business interactions we may have with you (collectively, the “Services“). This Privacy Policy applies to any Services offered or provided by IOU Corp, regardless of how you access or use it. It provides the policies and procedures for collecting, using, and disclosing the information of each user of the Services (“you“, “your“, or the “User“). We recognize that you choose to use the Services and we consider your privacy and the security of your personal information to be very important. Throughout this Privacy Policy, we make reference to the Personal Information that we collect. “Personal Information” means information that (either alone or when in combination with other information) may be used to readily identify, contact, or locate you. For example, your name, telephone number, payment information, financial account information, and email address are Personal Information. Please Note: This Policy does not address the privacy or information collection, use, disclosure and/or retention practices of any third-party entities. Moreover, the privacy and information practices of such third-party entities do not apply to IOU Corp. Please review any applicable third-party entity’s privacy policy for more information regarding such third-party entity’s own privacy or information practices. IOU Corp has no liability with respect to the use or misuse of Personal Information by such third-party entities or any failure to comply with such third-party entities’ privacy policies. We may update this Privacy Policy from time to time – you can find our latest policy on our website at https://iou-corp.github.io/business-terms-of-service-c/ or by asking us for a copy.</p>
+<h2 id="section-2">1. Information We Collect</h2>
+<h3>a. Business Data</h3>
+<p>By using the Services, you may provide us access to data about your company’s medical and/or recreational cannabis transaction information and product information, including but not limited to your business’s financial account data (“Business Data”). If, in connection with your master account, you choose to set up individual “child” accounts from the same login credentials for your employees, partners, or others, you must also provide usernames, passwords and set any relevant permissions for that account. When you set up child accounts and choose to share your Business Data with other individuals or entities, we are not responsible for loss of confidentiality or any other consequences stemming from those actions. You remain responsible for the use of the account.</p>
+<h3>b. Personal Information</h3>
+<p>We receive and store information you give us when you use the Services. For example, we collect information when you: provide information to sign up for an Account with the Services; provide information in your Account profile; login and operate your Account within the Services; use our mobile app(s); or communicate with us by email for any purpose. You can choose not to provide certain information, but you may not be able to use all of the Services features as a result.</p>
+<h3>c. Information Automatically Collected</h3>
+<p>When you use our Services, including when you use interactive features of our website such as the chat, we collect usage information, such as the pages or content you view, click on or share, the clickstream patterns and length of time spent on the Services, the name and version of the Services (such as the mobile app) you are using, as well as searches you conduct and your use of a chat (including, for example, the data you input to the chat feature). We also collect log data and device information, such as details about how you’ve used and interacted with our Services (including if you clicked on links to third-party applications), the operating system you are using, IP address, access dates and times, hardware and software information, device type, device event information, unique identifiers (e.g., IDFA and IDFV), crash data, and the pages you have viewed or engaged with before, during, or after your use of our Services. We also collect information such as the Internet address of the website from which you linked directly to the Services and the materials you post or download from the Services. We may use this information, for example, to improve the Services’ design and functionality, determine how many users have visited certain pages, or to prevent fraud. We may link this data to your profile. Our partners also may collect and combine information collected through the Services with other information about your online activities over time, on other devices, and on other websites or apps, if those websites and apps also use the same partners. When you download and use our mobile app(s), we and our service providers may track and collect app usage data, such as the date and time the app on your device accesses our servers and what information and files have been downloaded to the app based on your device number. Cookies are pieces of information stored directly on the computer that you are using. Cookies allow us to collect information such as browser type, time spent on the Services, pages visited, language preferences, and other traffic data. We and our service providers use the information for security purposes, to facilitate navigation, to display information more effectively, and to personalize your experience. We also gather statistical information about use of the Services in order to continually improve its design and functionality, understand how it is used, and assist us with resolving questions regarding it. If you do not want information collected through the use of cookies, most browsers allow you to automatically decline cookies or be given the choice of declining or accepting a particular cookie (or cookies) from a particular website. You may also wish to refer to http://www.allaboutcookies.org/manage-cookies/index.html. If, however, you do not accept cookies, you may experience some inconvenience in your use of the Services. Pixel tags (also known as web beacons and clear GIFs) may be used to, among other things, track the actions of users of the Services (including email recipients), measure the success of our marketing campaigns, and compile statistics about usage of the Services and response rates. We use Google Analytics, which uses cookies and similar technologies to collect and analyze information about use of the Services and report on activities and trends. This service may also collect information regarding the use of other websites, apps and online resources. You can learn about Google’s practices by going to www.google.com/policies/privacy/partners/, and exercise the opt-out provided by Google by downloading the Google Analytics opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout. We may collect the physical location of your device by, for example, using satellite, cell phone tower or WiFi signals. We may use your device’s physical location to provide you with personalized location-based services and content. In some instances, you may be permitted to allow or deny such uses and/or sharing of your device’s location, but if you do, we may not be able to provide you with the applicable personalized services and content.</p>
+<h2 id="section-9">2. How Information Is Collected</h2>
+<p>The information we collect on or through the Services may include information that you provide by filling in forms, using our chat or mobile app(s), or registering or subscribing to the Services. We may also ask you for information when you contact us or when you report a problem with the Services, including but not limited to records and copies of your correspondence (including email addresses). You also may provide information to be published or displayed (hereinafter, “posted”) on public areas of the Services, or transmitted to other users of the Services or third parties (collectively, “User Submissions”). Your User Submissions are posted on and transmitted to others at your own risk. Although we limit access to certain pages and information, including Business Data, please be aware that no security measures are perfect or impenetrable. Additionally, we cannot control the actions of other users of the Services with whom you may choose to share your User Submissions viewed by unauthorized persons. The amount of Non-Personal Information sent by your web browser depends on the browser and settings you use. Please refer to the instructions provided by your browser if you want to learn more about what information it sends to websites you visit, or how you may change or restrict this. At this time, we do not track our users’ Personal Information over time and across third-party websites. We therefore do not respond to browser Do Not Track signals. However, we maintain the right to modify and amend this policy from time to time.</p>
+<h2 id="section-11">3. Setting Up An Account</h2>
+<p>Should you request an account to use any of our Services (an “Account”), IOU Corp requires that you submit the following information:</p>
+<p class="clause">• First and Last Name</p>
+<p class="clause">• Username</p>
+<p class="clause">• Email Address</p>
+<p class="clause">• Mailing Address</p>
+<p class="clause">• Phone Number You must also create a password when signing up for our Services. IOU Corp requires the non-optional information listed above in order to create and maintain your account. When you create an Account you will also need to provide information for your Company, retailer or producer and products associated with your company, including but not limited to Business Data. The information gathered for company representation includes but is not limited to:</p>
+<p class="clause">• Company Name</p>
+<p class="clause">• Company Address</p>
+<p class="clause">• Company Website</p>
+<p class="clause">• Company Phone Number</p>
+<p class="clause">• Company Position</p>
+<p class="clause">• Company License Number(s)</p>
+<p class="clause">• Company License Type(s)</p>
+<p class="clause">• A List of Product Names and Details</p>
+<p class="clause">• Photos of Products Please note that a valid license to buy or sell cannabis or cannabis related products from the applicable IOU Corp Market is required before a IOU Corp Team Member approves your registration.</p>
+<h2 id="section-27">4. How We Use and Disclose Your Information</h2>
+<h3>a. Business Data</h3>
+<p>You acknowledge that the Services collect inventory and/or transactional information about your cannabis business. We aggregate and interpret this information to be able to present reports to you that represent your Business Data in meaningful ways. You have the right to ask us to delete your information from the Services, after which we will not share your Business Data with third parties, including competing businesses, without your consent or without first aggregating and anonymizing your Business Data.</p>
+<h3>b. Personal Information</h3>
+<p>IOU Corp and our affiliates, technical consultants, third-party administrators and other specifically permitted third parties, who enhance the functionality of the Services, who provide associated services through their individual websites or apps, or who have loyalty programs covering multiple brands, have access to your Personal Information. For example, we disclose Personal Information to our third-party service providers to facilitate services they provide to us, such as website hosting (including by providing tools that enable us to analyze your interactions on our Services), data analysis, providing and servicing the chat and analyzing related data on our Services (including through storage, processing, and analysis of chat transcripts), payment processing, order fulfillment, information technology and related infrastructure provision, customer service, email delivery, auditing, and other services. If you make or receive payments through the Services, or through an affiliate or partner of ours, you will need to provide financial account information, such as your credit card number or bank account number, to our third-party service providers. We collect and store your bank account information as part of providing the Services. We will also receive information about completed transactions that does not include credit card or bank account numbers, and that may be shared in order to improve the Services or offer new Services. We use Personal Information in order to operate, provide, improve and develop the Services (including the chat and our mobile app(s)), provide you with customer support, provide, tailor, measure and improve our advertising and marketing, communicate with you, and monitor compliance with the rules governing the Services. We may send periodic product updates as well as Account updates that may include, but are not limited to, notices required by law and/or notices of a change in this Privacy Policy. If you provide us with your email address, we reserve the right to send you marketing and promotional emails. You may opt out of receiving such communications from the Services by following the instructions included with those emails. If you opt out, we may still send you non-promotional emails, such as emails about your account with IOU Corp or our ongoing business relations. If you are one of our business customers or partners, we may share your contact information with third parties who provide products or services that may be of interest to your business, for them to send you marketing communications. You may send requests about contact preferences, or to review, verify, correct, change, or delete your personal information, including requests to opt out of sharing personal information with third parties, to our contact information below. IOU Corp may use Stripe, LLC. (“Stripe”) to connect your IOU Corp account with your bank account, verify your bank account and confirm your bank account balance prior to approving a transaction. Information shared with Stripe is treated by Stripe in accordance with its Privacy Policy, available at https://stripe.com/privacy.</p>
+<h3>c. Non-Personal Information</h3>
+<p>We may use and share Non-Personal Information (anonymized data that is in a statistical or summary form that does not include any personal identifiers) in the aggregate for any purpose without your authorization, for example to compile data trends, and otherwise analyze the performance of our Services. Non-Personal Information will also facilitate the provision of software updates, product support, and other services to you. This aggregate data will in no way personally identify you or any other users of the Services.</p>
+<h2 id="section-34">5. Information Protection</h2>
+<p>IOU Corp will take reasonable physical, organizational, and technological precautions to help protect your privacy and the information we collect. Personal Information or Business Data may be accessed by persons within our organization, or our third-party service providers, who require such access to carry out the purposes indicated above, or such other purposes as may be permitted or required by the applicable law. Information we collect is maintained in our secure hosting facility. Unfortunately, notwithstanding any steps taken by us, it is not possible to guarantee the security and integrity of data transmitted over the Internet. Consequently, while we take reasonable steps to protect your personal information, we cannot and do not warrant the security or integrity of any information you transmit to us when registering for our Services or otherwise. All such transmission of information is at your own risk. Even though we are committed to having our Services comply with this Privacy Policy, you are also responsible for maintaining the confidentiality of your password, Personal Information and private business information.</p>
+<h2 id="section-36">6. Legally Required Disclosure of Your Information</h2>
+<p>We reserve the right to release account information and other Personal Information: when we believe release is appropriate to comply with the law, including, but not limited to at the request of any judicial, administrative or similar proceeding such as a subpoena; to investigate suspected fraud, harassment, physical threats, or other violations of any state or federal law, rule or regulation; to protect the rights, property, or safety of the Services, our users, of IOU Corp, our agents, or others; or to enforce or apply our Terms of Service, agreements, and policies. We may also share Personal Information in an emergency. This includes the safety of our employees and agents, our customers, or any person.</p>
+<h2 id="section-38">7. Links to Third Party Resources</h2>
+<p>The Services may provide links that direct you away from the Services to outside websites, and may offer you the option to use integrated state traceability software to sync to your IOU Corp Account (“Third-Party Resources”). To the extent that occurs, those Third-Party Resources are not operated by us and are beyond our control. These Third-Party Resources may independently collect data, or solicit personal information. When visiting or using these Third-Party Resources, you are subject to their privacy policies, and we encourage you to read them as well as any terms of use or service. We are not responsible for the privacy practices of Third-Party Resources and we cannot guarantee the security of any of your Personal Information collected there. We have no control over the contents of Third-Party Resources, and accept no responsibility for them or for any loss or damage that may arise from your use of them. If you decide to access any of the Third-Party Resources linked to or integrated with the Services, you do so entirely at your own risk and subject to the terms and conditions of use for such Third-Party Resources. You acknowledge that IOU Corp shall have no liability to you for any losses suffered resulting from or arising in connection with accuracy, compatibility or interoperability problems. In addition, we are not responsible for the information collection, use, disclosure, or security policies or practices of other organizations, such as Meta, Apple, Google, Microsoft, or any other app developer, app provider, operating system provider, wireless service provider, or device manufacturer, including with respect to any Personal Information you disclose to other organizations through or in connection with our mobile app(s).</p>
+<h2 id="section-40">8. Business Practices and Transfers</h2>
+<p>As our business evolves and our practices change, we will continue to update this Privacy Policy. We may periodically notify users of changes in our policies and you should check our Services frequently for any changes. Additionally, as our business continues to grow, we may acquire or sell a business. We reserve the right to transfer customer information in connection with such a transaction, but such information remains subject to the provisions of any pre-existing Privacy Policy. In the event that IOU Corp or substantially all of its assets are acquired, customer information may be one of the transferred assets.</p>
+<h2 id="section-42">9. Minors</h2>
+<p>This Site is offered and available to users who are 21 years of age or older and reside in the IOU Corp Markets. By using this Site, you represent and warrant that you are of legal age to form a binding contract with IOU Corp and meet all of the foregoing eligibility requirements. If you do not meet all of these requirements, you must not access or use the Site. We do not intentionally seek to sell anything to, influence, collect information from or otherwise address individuals 21 years of age and younger, nor do we knowingly collect personal information from children under 21 through the Services. If we learn or have reason to suspect that a user is under age 21, we will promptly delete any Personal Information in that user’s account.</p>
+<h2 id="section-44">10. Changing Personal Information</h2>
+<p>If you would like to review, correct, update or suppress Personal information that you have previously provided through the Services or otherwise, you may do so by contacting us as indicated below. Please note that IOU Corp may retain certain information for recordkeeping purposes, and residual information may remain within our databases and other records, which will not be removed therefrom. IOU Corp also reserves the right, from time to time, to contact former Users. Finally, IOU Corp is not responsible for removing information from the databases of third-party entities or from third parties with whom IOU Corp has already shared or which have been provided Personal Information about you.</p>
+<h2 id="section-46">11. International Privacy Laws</h2>
+<p>Some or all of the Personal Information we collect may be stored or processed on servers located outside your jurisdiction of residence, including in the United States, whose data protection laws may differ from the jurisdiction in which you live. As a result, this information may be subject to access requests from governments, courts, or law enforcement in those jurisdictions according to laws in those jurisdictions. If you are visiting the Services from outside the United States, please be aware that you are sending information to the United States where our servers are located. That information may then be transferred within the United States or back out of the United States to other countries outside of your country of residence, depending on the type of information and how it is stored by us. These countries (including the United States) may not necessarily have the data protection laws as comprehensive or protective as those in your country of residence; however, our collection, storage, and use of your information will at all times be governed by this Privacy Policy.</p>
+<h2 id="section-48">12. Contact Information</h2>
+<p>If you’d like more information about our privacy practices or want us to delete your Personal Information, feel free to contact us at: IOU Corp</p>
+<p>8547 E Arapahoe Rd J-366</p>
+<p>Greenwood Village, CO 80112</p>
+<p>By email: help@iwantchips.com</p>
+</div>
+<div class="doc-end">IOU Corp &middot; Cannabis business policy</div>
+</article>
+</main>
+</div>
+<footer>&copy; 2026 IOU Corp. All rights reserved.</footer>
 </body>
 </html>
